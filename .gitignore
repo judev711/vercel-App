@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+#***a
+# fichiers de configuration sensibles
+*.env
+config.ini
+database.conf
+credentials.json
+
+# fichiers temporaires
+tmp/
+*.tmp
+*.log
+
+# fichiers générés par le build
+build/
+dist/
+target/
+
+# fichiers système
+node_modules/  # si vous utilisez Node.js
+.DS_Store  # pour macOS
+Thumbs.db  # pour Windows
+
+# fichiers de cache
+cache/
+*.cache
+vercel.json
