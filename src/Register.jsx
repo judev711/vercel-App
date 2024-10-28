@@ -30,7 +30,7 @@ function Register() {
   };
   return (
     <div className="w-full h-screen flex items-center justify-center fixed bg-gray-300 ">
-      <div className=" max-w-xs w-full lg:max-w-sm  ">
+      <div className=" max-w-sm w-full lg:max-w-sm  ">
         <div className="bg-blue-300 rounded-2xl px-4 pt-4 pb-4 border-2 border-indigo-300">
           
           <h1 className=" font-extrabold text-xl  mb-3">Sign-Up </h1>

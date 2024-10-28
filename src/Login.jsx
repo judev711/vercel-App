@@ -32,7 +32,7 @@ function Login() {
   };
   return (
     <div className="w-full h-screen flex items-center justify-center fixed bg-gray-300 ">
-      <div className=" max-w-xs w-full lg:max-w-sm  ">
+      <div className=" max-w-sm w-full lg:max-w-sm  ">
         <div className="bg-blue-300 rounded-2xl px-4 pt-4 pb-4 border-2 border-indigo-300">
           <h1 className=" max-sm:text-[20px]  font-extrabold text-2xl mb-3 bg-gray-300 p-2 rounded-md">
             Sign-In{" "}
@@ -80,7 +80,7 @@ function Login() {
               </p>
             </div>
             <Link to="/register">
-              <button className="bg-gray-600 w-[100%] text-white  text-xl text-center font-bold p-3 rounded-md hover:bg-amber-200  ">
+              <button className="bg-gray-600 w-[100%] text-white  text-xl text-center font-bold p-3 rounded-md hover:bg-amber-200 hover:text-black  ">
                 Create Account
               </button>
             </Link>
