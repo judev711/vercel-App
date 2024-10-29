@@ -30,9 +30,8 @@ function Register() {
   };
   return (
     <div className="w-full h-screen flex items-center justify-center fixed bg-gray-300 ">
-      <div className=" max-w-sm w-full lg:max-w-sm  ">
+      <div className=" max-w-[30rem] w-full lg:max-w-sm  ">
         <div className="bg-blue-300 rounded-2xl px-4 pt-4 pb-4 border-2 border-indigo-300">
-          
           <h1 className=" font-extrabold text-xl  mb-3">Sign-Up </h1>
           <form onSubmit={handleSubmit}>
             <div className="mb-3 flex flex-col">
@@ -100,6 +99,11 @@ function Register() {
                 Login
               </button>
             </Link>
+            <div className="mt-3">
+              <p className="text-center font-extrabold">
+                droit d`auteur Theodore711@2024
+              </p>
+            </div>
           </form>
         </div>
       </div>

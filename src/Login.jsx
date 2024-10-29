@@ -31,8 +31,8 @@ function Login() {
       });
   };
   return (
-    <div className="w-full h-screen flex items-center justify-center fixed bg-gray-300 ">
-      <div className=" max-w-sm w-full lg:max-w-sm  ">
+    <div className="w-full h-screen flex items-center justify-center fixed bg-gray-200 ">
+      <div className=" max-w-[30rem] w-full lg:max-w-sm shadow-2xl ">
         <div className="bg-blue-300 rounded-2xl px-4 pt-4 pb-4 border-2 border-indigo-300">
           <h1 className=" max-sm:text-[20px]  font-extrabold text-2xl mb-3 bg-gray-300 p-2 rounded-md">
             Sign-In{" "}
@@ -85,9 +85,7 @@ function Login() {
               </button>
             </Link>
             <div className="mt-5 text-center">
-              <p className="font-extrabold md:hidden">
-                ~~Theodore711@2024~~
-              </p>
+              <p className="font-extrabold md:hidden">~~Theodore711@2024~~</p>
             </div>
           </form>
         </div>
