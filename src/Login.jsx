@@ -75,9 +75,12 @@ function Login() {
                   Login
                 </button>
               </Link>
-              <p className="text-sm font-bold text-center">
-                Your agree to aour terms and policies{" "}
-              </p>
+              <div className="flex items-center  gap-3 mt-3">
+                <input type="checkbox" />
+                <p className="text-sm font-bold text-center">
+                  Your agree to aour terms and policies{" "}
+                </p>
+              </div>
             </div>
             <Link to="/register">
               <button className="bg-gray-600 w-[100%] text-white  text-xl text-center font-bold p-3 rounded-md hover:bg-amber-200 hover:text-black  ">

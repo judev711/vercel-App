@@ -87,9 +87,12 @@ function Register() {
               >
                 Sign Up
               </button>
-              <p className="text-xs font-extrabold text-center ">
-                You agree to our terms and policies.
-              </p>
+              <div className="flex items-center  gap-3 mt-3">
+                <input type="checkbox" />
+                <p className="text-sm font-bold text-center">
+                  Your agree to aour terms and policies{" "}
+                </p>
+              </div>
             </div>
             <Link to="/">
               <button
