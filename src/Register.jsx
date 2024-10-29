@@ -33,10 +33,12 @@ function Register() {
     <div className="w-full h-screen flex items-center justify-center fixed bg-gray-300 ">
       <div className=" max-w-[30rem] w-full lg:max-w-sm  ">
         <div className="bg-blue-300 rounded-2xl px-4 pt-4 pb-4 border-2 border-indigo-300">
-        <div className="flex justify-center mb-3">
-          <FaUserSecret className="text-[50px]   " />
-        </div>
-          <h1 className=" font-extrabold text-xl bg-gray-300 p-2 rounded-md  mb-3">Sign-Up </h1>
+          <div className="flex justify-center mb-2">
+            <FaUserSecret className="text-[95px]   " />
+          </div>
+          <h1 className=" font-extrabold text-xl bg-gray-300 p-2 rounded-md  mb-3">
+            Sign-Up{" "}
+          </h1>
           <form onSubmit={handleSubmit}>
             <div className="mb-3 flex flex-col">
               <label htmlFor="name">
